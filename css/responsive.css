@@ -1,7 +1,13 @@
+
+
 /* lg */
 @media (min-width: 1199px) {
 	html, body{
 		width: 100%
+	}
+
+	#arbot{
+		height: 360px;
 	}
 
 	.col-2 {width: 16.66%;}
@@ -36,11 +42,37 @@
 		padding-top: 100px;
 	}
 
+	h2 {
+		font-size: 20px;
+		line-height: 2;
+		max-width: 100%;
+		padding-left: 0px;
+	
+	}S
+
+
 }
+
+@media (min-width: 1125px) and (max-width: 1138px) {
+	#onewayback{
+		height: 660px;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 1125px) {
+	#onewayback{
+		height: 900px;
+	}
+}
+
 /* md */
 @media (min-width: 991px) and (max-width: 1199px) {
 	html, body{
 		width: 100%
+	}
+
+	#arbot{
+		height: 360px;
 	}
 	.padding-md {
 		padding-top: 130px;
@@ -86,6 +118,9 @@
 	html, body{
 		width: 100%
 	}
+	#table{
+		margin-top: 80px;
+	}
 
 	
 
@@ -121,6 +156,14 @@
 		text-align: center;
 	  }
 
+	  h2 {
+		font-size: 20px;
+		line-height: 2;
+		max-width: 100%;
+		padding-left: 0px;
+	
+	}S
+
 }
 
 /* sm */
@@ -128,6 +171,16 @@
 	#pjune {
 		display: none;
 	}
+	.weuse{
+		max-width: 315px;
+	}
+
+
+
+	#arbot{
+		height: 400px;
+	}
+
 
 	.product-info{
 		margin-left: 15px;
@@ -142,8 +195,9 @@
 	h2 {
 		font-size: 20px;
 		line-height: 2;
-		max-width: 90%;
+		max-width: 100%;
 		padding-left: 0px;
+	
 	}S
 
 	.padding-md {
@@ -227,10 +281,36 @@
 		width: 100%
 	}
 
+	#arbot{
+		height: 375px;
+	}
+
+	#oneway{
+		height: 100px;
+	}
+
+	#onewayback{
+		height: 565px;
+	}
+
+	.textblue{
+		font-size: 18px;
+	}
+
+	.title2{
+		font-size: 25px;
+		margin-left: 15px;
+	}
+
+
+	.weuse{
+		max-width: 760px;
+	}
+
+	
+
 	.product-info{
 		margin-left: 30px;
-		
-
 	}
 
 	h2 {
@@ -375,6 +455,41 @@
 	html, body{
 		width: 100%
 	}
+	.img-profile{
+		max-width: 120px;;
+	}
+
+	.title2{
+		margin-top: 10px;
+		margin-left: 5px;
+	}
+
+	.title3 {
+		font-size: 19px;
+	}
+
+	.daico-btn{
+		max-width: 170px;
+	}
+
+	#arbot{
+		height: 415px;
+	}
+
+	#oneway{
+		height: 80px;
+
+
+	}
+
+	#onewayback{
+		height: 540px;
+	}
+
+	.weuse{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
 	h2 {
 		font-size: 20px;
@@ -451,3 +566,37 @@
 
 
 }
+
+@media (max-width: 380px) {
+	#arbot{
+		height: 440px;
+	}
+
+	#oneway{
+		height: 70px;
+	}
+
+	#onewayback{
+		height: 530px;
+	}
+
+	.title3{
+		font-size: 18px;
+	}
+	.howto{
+		margin-top: 80px;
+	}
+
+}
+
+@media (max-width: 340px){
+	.title3{
+		font-size:16px;
+	}
+
+	.howto{
+		margin-top: 80px;
+	}
+
+}
+
